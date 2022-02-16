@@ -1347,7 +1347,7 @@ ${petik}│◦➛ Owner :${ownerName}
 └❏ ${petik}` 
 wibu = `${botName}`
 sound = fs.readFileSync(`./mp3/sound7.mp3`)
-           ikyy.sendMessage(from, { contentText: `${menu}`, footerText: `${wibu}`, sound, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: `⬡ MENU SIMPEL\n\n_jika bot tidak merespon ketik ${prefix}command_` }, type: 1 },{ buttonId: `${prefix}yyyy`, buttonText: { displayText: `⬡ ALL MENU\n\n_jika bot tidak merespon ketik ${prefix}sewabot_` }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: await getBuffer (pic), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+           ikyy.sendMessage(from, { contentText: `${menu}`, footerText: `${wibu}`, sound, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: `⬡ MENU SIMPEL\n\n_jika bot tidak merespon ketik ${prefix}command_` }, type: 1 },{ buttonId: `${prefix}yyyy`, buttonText: { displayText: `⬡ ALL MENU\n\n_jika bot tidak merespon ketik ${prefix}yyyy_` }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: await getBuffer (pic), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 satu = fs.readFileSync('./mp3/ohayo.mp3');
 ikyy.sendMessage(from, satu, MessageType.audio, {quoted: fvn, mimetype: 'audio/mp4', ptt:true})
 break
@@ -5344,7 +5344,7 @@ break
        case 'sourcecode': 
        case 'sc': 
        case 'src':
-              textImg(`Bot ini menggunakan sc : https://github.com/rizkiadiasa/botikyy`)
+              textImg(`Ciee Mau Sc Gua Yaakk Wokwok Sorry Ni Sc Private :v`)
               break
       case 'ping':
       case 'speed':
