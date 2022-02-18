@@ -1141,7 +1141,7 @@ ${petik}│◦➛ Owner :${ownerName}
 │◦➛ ${prefix}igdl 
 │◦➛ ${prefix}igdl2 
 │◦➛ ${prefix}twitter 
-│◦➛ ${prefix}tiktok 
+│◦➛ ${prefix}tiktok
 │◦➛ ${prefix}play 
 │◦➛ ${prefix}ythd 
 │◦➛ ${prefix}ytmp3 
@@ -3454,6 +3454,7 @@ ikyy.sendMessage(from,{url:'./'+memek},audio,{mimetype:'audio/mpeg'})
        case 'ttdl':
        case 'tiktokdl':
        case 'tiktoknowm':
+       case 'tiktok':
               if (!q) return reply('Linknya?')
               if (!q.includes('tiktok')) return reply(mess.error.Iv)
               data = await fetchJson(`https://api.lolhuman.xyz/api/tiktok?apikey=${setting.lolkey}&url=${q}`)
@@ -4689,7 +4690,6 @@ break
               ikyy.relayWAMessage(prep)
         
                     break
-                case 'tiktok':
                 case 'arcade8bit':
                 case 'battlefield4':
                 case 'pubg':
