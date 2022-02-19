@@ -288,8 +288,8 @@ let ikyads = await getBuffer (`${setting.ppbot}`)
        let gmt = new Date(0).getTime() - new Date('1 January 1970').getTime()
      let weton = ['Pahing', 'Pon','Wage','Kliwon','Legi'][Math.floor(((d * 1) + gmt) / 84600000) % 5]
         let week = d.toLocaleDateString(locale, { weekday: 'long' })
-let date = d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' })
-let waktu = d.toLocaleDateString(locale, { hour: 'numeric', minute: 'numeric', second: 'numeric' })
+let date = d.toLocaleDateString(locale, { Hari: 'numeric', Bulan: 'long', Tahun: 'numeric' })
+let waktu = d.toLocaleDateString(locale, { Jam: 'numeric', Menit: 'numeric', Detik: 'numeric' })
         const sendButMessage = (id, text1, desc1, but = [], options = {}) => {
       const buttonMessage = {
         contentText: text1,
@@ -2452,7 +2452,7 @@ ${wibu}`, imageMessage: imageMsg,
                    }
                         list.push(yy)
            }
-               listmsg(from, `${botName} `,`  `, list)
+               listmsg(from, `MENU SIMPEL 👇 `,`  `, list)
                break
    
    
@@ -5335,7 +5335,7 @@ break
                break
 //------------------< Ingfo Bot >-------------------
       case 'runtime':
-              textImg(`${runtime(process.uptime())}`)
+			  textImg(`${runtime(process.uptime())}`)
               break
        case 'donate': 
        case 'donasi':
